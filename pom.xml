@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.leafstudio</groupId>
-	<artifactId>goodtodo</artifactId>
+	<artifactId>good-todo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>goodtodo</name>
+	<name>good-todo</name>
 	<description>An app to do good</description>
 	<properties>
 		<java.version>17</java.version>
@@ -29,7 +29,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -39,6 +38,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
